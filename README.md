@@ -1,8 +1,10 @@
 # Nice Things
 
-This is an attempt to get a bunch of really nice things (yeah, I said it) in once easy-to-navigate place. I don't want it to turn into a competition of who has design the best what, just a list of what I think is beautiful.
+This project is an attempt to get a bunch of Nice Things in one place. No adverts, no clutter, just a crapload (yes, that's a measurement) of thumbnails.
 
-## Contributors
+## People who've helped me out
 
-- (Adam Strawson)[http://twitter.com/adamstrawson]
-- (Dan Eden)[http://twitter.com/_dte]
+Thanks to everyone who's helped, helping and *is going to* help on this project. Here's a list of those awesome people:
+
+- Adam Strawson – http://twitter.com/adamstrawson
+- Dan Eden – http://twitter.com/_dte
