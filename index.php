@@ -9,6 +9,8 @@
 
 	<!-- Styles & scripts -->
 	<link rel="stylesheet" href="styles/css/main.css">
+	<script src="scripts/min/jquery.min.js"></script>
+	<script src="scripts/min/view.min.js?auto"></script>
 	<script src="http://use.typekit.com/feu7nwp.js"></script>
 	<script>try{Typekit.load();}catch(e){}</script>
 
@@ -25,7 +27,7 @@
 	$dir = opendir("./things");
 	while (false !== ($file = readdir($dir))) { /* opendir/readdir */
 	    if($file != "." && $file != "..") {
-	        echo "\t\t<li><a href=\"things/$file\"><img src=\"createThumb.php?src=things/$file&w=128&h=128\" /></a></li>\r\n";
+	        echo "\t\t<li><a class=\"view\" rel=\"nice-things\" href=\"things/$file\"><img src=\"createThumb.php?src=things/$file&w=128&h=128\" /></a></li>\r\n";
 	    }
 	}
 ?>

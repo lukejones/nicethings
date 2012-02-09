@@ -49,3 +49,23 @@ ul {
 		opacity: 1;
 	}
 }
+
+// View.js transitions
+.viewer {
+	li {
+		-webkit-transition: width 500ms cubic-bezier(0.075, 0.820, 0.165, 1.000);
+		-moz-transition: width 500ms cubic-bezier(0.075, 0.820, 0.165, 1.000);
+		transition: width 500ms cubic-bezier(0.075, 0.820, 0.165, 1.000);
+	}
+	.caption {
+		visibility: hidden;
+		opacity: 0;
+		-webkit-transition: opacity 1.5s ease-in-out;
+		-moz-transition: opacity 1.5s ease-in-out;
+		transition: opacity 1.5s ease-in-out;
+	}
+	.current .caption {
+		opacity: 100;
+		visibility: visible;
+	}
+}
