@@ -9,9 +9,15 @@
 
 	<!-- Styles & scripts -->
 	<link rel="stylesheet" href="styles/css/main.css">
+	<script src="http://use.typekit.com/feu7nwp.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
 
 </head>
 <body>
+
+	<header id="masthead">
+		<h1>Nice Things<a href="http://www.lukejones.me/" title="Created by Luke Jones">.</a></h1>
+	</header><!-- /#masthead -->
 
 <?php
 	// A lovely bit of PHP by @_dte to loop images, createThumb by @adamstrawson and the img echo done by @benlumley
