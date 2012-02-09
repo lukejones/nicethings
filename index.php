@@ -14,7 +14,7 @@
 <body>
 
 <?php
-	// A lovely bit of PHP by @_dte to loop images
+	// A lovely bit of PHP by @_dte to loop images, createThumb by @adamstrawson and the img echo done by @benlumley
 	$dir = opendir("./things");
 	while (false !== ($file = readdir($dir))) { /* opendir/readdir */
 	    if($file != "." && $file != "..") {
