@@ -19,15 +19,17 @@
 		<h1>Nice Things<a href="http://www.lukejones.me/" title="Created by Luke Jones">.</a></h1>
 	</header><!-- /#masthead -->
 
+	<ul>
 <?php
 	// A lovely bit of PHP by @_dte to loop images, createThumb by @adamstrawson and the img echo done by @benlumley
 	$dir = opendir("./things");
 	while (false !== ($file = readdir($dir))) { /* opendir/readdir */
 	    if($file != "." && $file != "..") {
-	        echo '<a href="things/'.$file.'"><img src="createThumb.php?src=things/'.$file.'&w=200&h=200" /></a>';
+	        echo "\t\t<li><a href=\"things/$file\"><img src=\"createThumb.php?src=things/$file&w=200&h=200\" /></a></li>\r\n";
 	    }
 	}
 ?>
+	</ul>
 
 </body>
 </html>
