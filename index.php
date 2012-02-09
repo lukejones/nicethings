@@ -18,7 +18,7 @@
 	$dir = opendir("./things");
 	while (false !== ($file = readdir($dir))) { /* opendir/readdir */
 	    if($file != "." && $file != "..") {
-	        echo '<img src="createThumb.php?src=things/'.$file.'&w=200&h=200" />';
+	        echo '<a href="things/'.$file.'"><img src="createThumb.php?src=things/'.$file.'&w=200&h=200" /></a>';
 	    }
 	}
 ?>
