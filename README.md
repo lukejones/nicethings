@@ -8,3 +8,4 @@ Thanks to everyone who's helped, helping and *is going to* help on this project.
 
 - Adam Strawson – http://twitter.com/adamstrawson
 - Dan Eden – http://twitter.com/_dte
+- Ben Lumley - http://twitter.com/benlumley
