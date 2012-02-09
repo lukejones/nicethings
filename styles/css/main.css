@@ -1,2 +1,2 @@
 body,html{margin:0;padding:0;line-height:18px;-webkit-font-smoothing:antialiased;}
-#masthead{margin:0 0 18px;padding:10px 0 8px;width:100%;background:rgba(0, 0, 0, 0.75);}#masthead h1{margin:0 5px;font-family:"league-gothic",sans-serif;font-style:normal;font-weight:400;font-size:27px;letter-spacing:1px;text-transform:uppercase;text-shadow:0 1px 0 #000;color:#fff;}#masthead h1 a{text-decoration:none;color:#BA4545;}
+#masthead{margin:0;padding:10px 0 8px;width:100%;background:rgba(0, 0, 0, 0.75);}#masthead h1{margin:0 5px;font-family:"league-gothic",sans-serif;font-style:normal;font-weight:400;font-size:27px;letter-spacing:1px;text-transform:uppercase;text-shadow:0 1px 0 #000;color:#fff;}#masthead h1 a{text-decoration:none;color:#BA4545;}#masthead h1 a:hover{color:#fff;}
