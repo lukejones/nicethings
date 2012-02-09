@@ -9,7 +9,7 @@ body,html {
 	margin: 0;
 	padding: 10px 0 8px;
 	width: 100%;
-	background: rgba(0,0,0,.75);
+	background: #000;
 	h1 {
 		margin: 0 5px;
 		font-family: "league-gothic",sans-serif;
@@ -18,7 +18,6 @@ body,html {
 		font-size: 27px;
 		letter-spacing: 1px;
 		text-transform: uppercase;
-		text-shadow: 0 1px 0 #000;
 		color: #fff;
 		a {
 			text-decoration: none;
@@ -35,6 +34,7 @@ ul {
 	padding: 0;
 	list-style: none;
 	li {
+		float: left;
 		margin: 0;
 		padding: 0;
 		list-style: none;
@@ -43,5 +43,9 @@ ul {
 		display: block;
 		margin: 0;
 		border: none;
+		opacity: 0.8;
+	}
+	a:hover img {
+		opacity: 1;
 	}
 }

@@ -25,7 +25,7 @@
 	$dir = opendir("./things");
 	while (false !== ($file = readdir($dir))) { /* opendir/readdir */
 	    if($file != "." && $file != "..") {
-	        echo "\t\t<li><a href=\"things/$file\"><img src=\"createThumb.php?src=things/$file&w=200&h=200\" /></a></li>\r\n";
+	        echo "\t\t<li><a href=\"things/$file\"><img src=\"createThumb.php?src=things/$file&w=128&h=128\" /></a></li>\r\n";
 	    }
 	}
 ?>
