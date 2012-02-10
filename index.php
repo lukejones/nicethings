@@ -33,14 +33,22 @@
 
 	<ul>
 <?php
-	// A lovely bit of PHP by @_dte to loop images, createThumb by @adamstrawson and the img echo done by @benlumley
+	$files = array();
 	$dir = opendir("./things");
 	while (false !== ($file = readdir($dir))) { /* opendir/readdir */
 	    if($file != "." && $file != "..") {
-	        echo "\t\t<li><a class=\"view\" rel=\"nice-things\" href=\"things/$file\"><img src=\"createThumb.php?src=things/$file&w=128&h=128\" width=\"128\" height=\"128\" /></a></li>\r\n";
+	    	$files[filectime($file)] = $file;
 	    }
 	}
+	ksort($files);
 ?>
+<?php foreach ($files as $file) : ?>
+		<li>
+			<a class="view" rel="nice-things" href="things/<?php echo $file; ?>">
+				<img src="createThumb.php?src=things/<?php echo $file; ?>&w=128&h=128" width="128" height="128" />
+			</a>
+		</li>
+<?php endforeach; ?>
 	</ul>
 
 </body>
