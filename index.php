@@ -41,7 +41,7 @@
 	    	$files[filectime($cwd . "/things/" . $file)] = $file;
 	    }
 	}
-	ksort($files);
+	krsort($files);
 ?>
 <?php foreach ($files as $file) : ?>
 		<li>
