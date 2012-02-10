@@ -3,6 +3,7 @@ body,html{margin:0;padding:0;line-height:18px;-webkit-font-smoothing:antialiased
 ul{margin:0;padding:0;list-style:none;}ul li{float:left;margin:0;padding:0;list-style:none;}
 ul a img{display:block;margin:0;border:none;opacity:0.8;}
 ul a:hover img{opacity:1;}
+.lazy{display:none;}
 .viewer li{-webkit-transition:width 500ms cubic-bezier(0.075, 0.82, 0.165, 1);-moz-transition:width 500ms cubic-bezier(0.075, 0.82, 0.165, 1);transition:width 500ms cubic-bezier(0.075, 0.82, 0.165, 1);}
 .viewer .caption{visibility:hidden;opacity:0;-webkit-transition:opacity 1.5s ease-in-out;-moz-transition:opacity 1.5s ease-in-out;transition:opacity 1.5s ease-in-out;}
 .viewer .current .caption{opacity:100;visibility:visible;}

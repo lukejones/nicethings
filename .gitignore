@@ -3,4 +3,5 @@ Thumbs.db
 *.esproj
 cache
 things
-scripts
+view.js
+view.min.js
