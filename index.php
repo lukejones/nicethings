@@ -10,7 +10,6 @@
 	<!-- Styles & scripts -->
 	<link rel="stylesheet" href="styles/css/main.css">
 	<script src="scripts/min/jquery.min.js"></script>
-	<script src="scripts/min/lazyload.min.js"></script>
 	<script src="scripts/min/view.min.js?auto"></script>
 	<script src="http://use.typekit.com/feu7nwp.js"></script>
 	<script>try{Typekit.load();}catch(e){}</script>
@@ -43,13 +42,6 @@
 	}
 ?>
 	</ul>
-
-
-	<script>
-		$("img.lazy").lazyload({ 
-			effect : "fadeIn"
-		});
-	</script>
 
 </body>
 </html>
