@@ -5,7 +5,7 @@
 	<!-- Meta stuff -->
 	<meta charset="utf-8">
 	<title>Nice Things</title>
-	<meta name="description" content="Insert something useful here.">
+	<meta name="description" content="A collection of the most beautiful things on the planet.">
 
 	<!-- Styles & scripts -->
 	<link rel="stylesheet" href="styles/css/main.css">
