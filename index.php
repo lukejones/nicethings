@@ -13,7 +13,6 @@
 	<script src="scripts/min/lazyload.min.js"></script>
 	<script src="scripts/min/view.min.js?auto"></script>
 	<script src="http://use.typekit.com/feu7nwp.js"></script>
-	<script>jQuery("img.lazy").show().lazyload();</script>
 	<script>try{Typekit.load();}catch(e){}</script>
 	<script>
 	var _gaq = _gaq || [];
@@ -39,11 +38,18 @@
 	$dir = opendir("./things");
 	while (false !== ($file = readdir($dir))) { /* opendir/readdir */
 	    if($file != "." && $file != "..") {
-	        echo "\t\t<li><a class=\"view\" rel=\"nice-things\" href=\"things/$file\"><img class=\"lazy\" src=\"scripts/loading.gif\" data-original=\"createThumb.php?src=things/$file&w=128&h=128\" /></a></li>\r\n";
+	        echo "\t\t<li><a class=\"view\" rel=\"nice-things\" href=\"things/$file\"><img src=\"createThumb.php?src=things/$file&w=128&h=128\" width=\"128\" height=\"128\" /></a></li>\r\n";
 	    }
 	}
 ?>
 	</ul>
+
+
+	<script>
+		$("img.lazy").lazyload({ 
+			effect : "fadeIn"
+		});
+	</script>
 
 </body>
 </html>
