@@ -8,12 +8,12 @@ Basic installation
 
 Installation is really easy. You don't need a database, just a hosting account. Once you've unzipped the files and placed it in the directory, you need to create the following directories:
 
-* cache
-* things
+* `cache`
+* `things`
 
-Make sure each of those directories has it's CHMOD set to 777 recursively. All you have to do now is stick some images in the ‘things’ directory and they'll be cropped, cached and will appear when viewing the index.php file.
+Make sure each of those directories has it's `CHMOD` set to `777` recursively. All you have to do now is stick some images in the `things` directory and they'll be cropped, cached and will appear when viewing the `index.php` file.
 
-Within the index.php you can modify the directory used for your ‘things’ and the size of the image crops on the front end.
+Within the `index.php` you can modify the directory used for your `things` and the size of the image crops on the front end.
 
 *Keep in mind that Nice Things also uses TypeKit for the small amount of text on the site and [view.js](http://finegoodsmarket.com/view/) by [@rogie](http://twitter.com/rogie) so you need to provide your own alternatives for these.*
 
