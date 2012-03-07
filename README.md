@@ -47,4 +47,6 @@ I've used a few scripts to make Nice Things, these are:
 License
 ------------------------------
 
-I don't know anything about licensing, so I'll just write it how I would say it in real-life: you can do whatever the hell you want with this source code. Feel free to sell it, distribute it, modify it or copy it. You don't have to attribute you me but attribution would be a nice bonus if you're feeling particularly generous.
+I don't know anything about licensing, so I'll just write it how I would say it in real-life: you can do whatever the hell you want with this source code. Feel free to sell it, distribute it, modify it or copy it.
+
+Note: This license doesn't include createThumb.php or any other scripts I've used or will use in this project.
