@@ -11,7 +11,7 @@ Installation is really easy. You don't need a database, just a hosting account. 
 * cache
 * things
 
-Make sure each of those directors has it's CHMOD set to 777 recursively. All you have to do now is stick some images in the ‘things’ directory and they'll be cropped, cached and will appear when viewing the index.php file.
+Make sure each of those directories has it's CHMOD set to 777 recursively. All you have to do now is stick some images in the ‘things’ directory and they'll be cropped, cached and will appear when viewing the index.php file.
 
 Within the index.php you can modify the directory used for your ‘things’ and the size of the image crops on the front end.
 
