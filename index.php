@@ -38,7 +38,7 @@
 	$dir = opendir("./things");
 	while (false !== ($file = readdir($dir))) { /* opendir/readdir */
 	    if($file != "." && $file != "..") {
-	    	$files[filectime($cwd . "/things/" . $file)] = $file;
+	    	$files[] = $file;
 	    }
 	}
 	krsort($files);
