@@ -1,34 +1,50 @@
-# Nice Things
+Nice Things
+==============================
 
-This project is an attempt to get a bunch of Nice Things in one place. No adverts, no clutter, just a crapload (yes, that's a measurement) of thumbnails.
+This project is an attempt to get a bunch of [Nice Things])http://nicethings.me/) in one place. No adverts, clutter or text, just a lot of nice things.
 
-## Basic installation instructions
+Basic installation
+------------------------------
 
-The first thing you need to do is create the following folders (making sure have a CHMOD of 777):
+Installation is really easy. You don't need a database, just a hosting account. Once you've unzipped the files and placed it in the directory, you need to create the following directories:
 
 - cache
 - things
 
-Place any images you want to appear on the front end inside ‘things’ and they will crop automatically, be cached and placed on the front end. If you change the name of the ‘things’ directory, make sure you change all references in index.php.
+Make sure each of those directors has it's CHMOD set to 777 recursively. All you have to do now is stick some images in the ‘things’ directory and they'll be cropped, cached and will appear when viewing the index.php file.
 
-## Fixing missing image problem
+Within the index.php you can modify the directory used for your ‘things’ and the size of the image crops on the front end.
 
-There is a known issue where images are missing, that is because incompatible characters are being used in the filename. At the moment the code only supports basic alphanumeric formatting, hyphens, spaces and underscores. A few other characters work but I don't support these and just avoid them like the plague.
+*Keep in mind that Nice Things also uses TypeKit for the small amount of text on the site and [view.js](http://finegoodsmarket.com/view/) by [@rogie](http://twitter.com/rogie) so you need to provide your own alternatives for these.*
 
-## People who've helped me out
+Fixing missing image issue
+------------------------------
 
-Thanks to everyone who's helped, helping and *is going to* help on this project. Here's a list of those awesome people:
+There is a known issue where images are missing from the front-end which appears in the back. This could be one of two things: the title of the image, or the size of the file. The maximum filesize set by createThumb.php is roughly 6.5MB, so make sure the file does not exceed this size. If the file does not exceed ~6.5MB, make sure that the title does not contain any special characters. I'm working on a fix, but at the moment the only support characters in the filenames are basic latin and simple punctuation (hyphens, spaces and underscores).
 
-- Dan Eden – http://twitter.com/_dte
-- Ben Everard – http://twitter.com/ilmv
-- Ben Lumley – http://twitter.com/benlumley
-- Saral – http://twitter.com/saralk
-- Adam Strawson – http://twitter.com/adamstrawson
-- Michael Wright – http://twitter.com/michaelw90
+*If anyone knows a fix for this, please feel free to fork the repository and send a merge request and I'll give you credit for it.*
 
-## Software
+These people are brilliant
+------------------------------
 
-I've used a few scripts to get Nice Things how I wanted, here are those scripts:
+I've been extremely lucky to have the help of some talented individuals on this project and I'm really grateful. So thank you to everyone who has helped, is helping and is *going to* help me make this better and better:
 
-- Thumbnail Creation by Adam Strawson (http://twitter.com/adamstrawson) – https://github.com/adamstrawson/Thumbnail-Creation
-- view.js by Rogie (http://twitter.com/rogie) – http://finegoodsmarket.com/view/
+- [Dan Eden](http://twitter.com/_dte)
+- [Ben Everard](http://twitter.com/ilmv)
+- [Ben Lumley](http://twitter.com/benlumley)
+- [Saral](http://twitter.com/saralk)
+- [Adam Strawson](http://twitter.com/adamstrawson)
+- [Michael Wright](http://twitter.com/michaelw90)
+
+Software
+------------------------------
+
+I've used a few scripts to make Nice Things, these are:
+
+- [Thumbnail Creation](https://github.com/adamstrawson/Thumbnail-Creation) by Adam Strawson
+- [view.js](http://finegoodsmarket.com/view/) by Rogie
+
+License
+------------------------------
+
+I don't know anything about licensing, so I'll just write it how I would say it in real-life: you can do whatever the hell you want with this source code. Feel free to sell it, distribute it, modify it or copy it. You don't have to attribute you me but attribution would be a nice bonus if you're feeling particularly generous.
