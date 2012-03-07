@@ -1,7 +1,7 @@
 Nice Things
 ==============================
 
-This project is an attempt to get a bunch of [Nice Things])http://nicethings.me/) in one place. No adverts, clutter or text, just a lot of nice things.
+This project is an attempt to get a bunch of [Nice Things](http://nicethings.me/) in one place. No adverts, clutter or text, just a lot of nice things.
 
 Basic installation
 ------------------------------
