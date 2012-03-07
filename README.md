@@ -8,8 +8,8 @@ Basic installation
 
 Installation is really easy. You don't need a database, just a hosting account. Once you've unzipped the files and placed it in the directory, you need to create the following directories:
 
-- cache
-- things
+* cache
+* things
 
 Make sure each of those directors has it's CHMOD set to 777 recursively. All you have to do now is stick some images in the ‘things’ directory and they'll be cropped, cached and will appear when viewing the index.php file.
 
@@ -29,20 +29,20 @@ These people are brilliant
 
 I've been extremely lucky to have the help of some talented individuals on this project and I'm really grateful. So thank you to everyone who has helped, is helping and is *going to* help me make this better and better:
 
-- [Dan Eden](http://twitter.com/_dte)
-- [Ben Everard](http://twitter.com/ilmv)
-- [Ben Lumley](http://twitter.com/benlumley)
-- [Saral](http://twitter.com/saralk)
-- [Adam Strawson](http://twitter.com/adamstrawson)
-- [Michael Wright](http://twitter.com/michaelw90)
+* [Dan Eden](http://twitter.com/_dte)
+* [Ben Everard](http://twitter.com/ilmv)
+* [Ben Lumley](http://twitter.com/benlumley)
+* [Saral](http://twitter.com/saralk)
+* [Adam Strawson](http://twitter.com/adamstrawson)
+* [Michael Wright](http://twitter.com/michaelw90)
 
 Software
 ------------------------------
 
 I've used a few scripts to make Nice Things, these are:
 
-- [Thumbnail Creation](https://github.com/adamstrawson/Thumbnail-Creation) by Adam Strawson
-- [view.js](http://finegoodsmarket.com/view/) by Rogie
+* [Thumbnail Creation](https://github.com/adamstrawson/Thumbnail-Creation) by Adam Strawson
+* [view.js](http://finegoodsmarket.com/view/) by Rogie
 
 License
 ------------------------------
