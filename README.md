@@ -8,8 +8,10 @@ Thanks to everyone who's helped, helping and *is going to* help on this project.
 
 - Dan Eden – http://twitter.com/_dte
 - Ben Everard – http://twitter.com/ilmv
-- Ben Lumley - http://twitter.com/benlumley
-- Michael Wright - http://twitter.com/michaelw90
+- Ben Lumley – http://twitter.com/benlumley
+- Saral – http://twitter.com/saralk
+- Adam Strawson – http://twitter.com/adamstrawson
+- Michael Wright – http://twitter.com/michaelw90
 
 ## Software
 
