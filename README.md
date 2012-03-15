@@ -24,6 +24,15 @@ There is a known issue where images are missing from the front-end which appears
 
 *If anyone knows a fix for this, please feel free to fork the repository and send a merge request and I'll give you credit for it.*
 
+Future features
+------------------------------
+
+For obvious reasons, I can't guarantee a timeframe for different features of Nice Things, but I've got a list of features I have in mind for future releases:
+
+* Captions on images with the format of `Image by Personal Person`.
+* URL for each popped-up image so the URL is always copy-and-paste friendly.
+* User submissions
+
 These people are brilliant
 ------------------------------
 
