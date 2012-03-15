@@ -38,8 +38,8 @@
 ?>
 <?php foreach ($files as $file) : ?>
 		<li>
-			<a class="view" rel="nice-things" href="things/<?php echo $file; ?>">
-				<img src="createThumb.php?src=things/<?php echo $file; ?>&w=128&h=128" width="128" height="128" />
+			<a class="view" rel="nice-things" href="<?php echo $file; ?>">
+				<img src="createThumb.php?src=<?php echo $file; ?>&w=128&h=128" width="128" height="128" />
 			</a>
 		</li>
 <?php endforeach; ?>
