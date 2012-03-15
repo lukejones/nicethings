@@ -33,14 +33,8 @@
 
 	<ul>
 <?php
-	$files = array();
-	$dir = opendir("./things");
-	while (false !== ($file = readdir($dir))) { /* opendir/readdir */
-	    if($file != "." && $file != "..") {
-	    	$files[] = $file;
-	    }
-	}
-	shuffle($files);
+    $files = glob("./things/*.*");
+    array_multisort(array_map('filemtime', $files), SORT_NUMERIC, SORT_DESC, $files);
 ?>
 <?php foreach ($files as $file) : ?>
 		<li>
