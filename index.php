@@ -40,7 +40,7 @@
 	    	$files[] = $file;
 	    }
 	}
-	krsort($files);
+	shuffle($files);
 ?>
 <?php foreach ($files as $file) : ?>
 		<li>
