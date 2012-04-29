@@ -3,12 +3,12 @@
 <head>
 
 	<!-- Meta stuff -->
-	<meta charset="utf-8">
+	<meta charset="utf-8"/>
 	<title>Nice Things</title>
-	<meta name="description" content="A collection of the most beautiful things on the planet.">
+	<meta name="description" content="A collection of the most beautiful things on the planet."/>
 
 	<!-- Styles & scripts -->
-	<link rel="stylesheet" href="styles/css/main.css">
+	<link rel="stylesheet" href="styles/css/main.css"/>
 	<script src="scripts/min/jquery.min.js"></script>
 	<script src="scripts/min/view.min.js?auto"></script>
 	<script src="http://use.typekit.com/feu7nwp.js"></script>
@@ -41,7 +41,7 @@
 ?>
 		<li>
 			<a class="view" rel="nice-things" href="<?php echo $file; ?>">
-				<img title="<? echo $caption ?>" src="createThumb.php?src=<?php echo $file; ?>&w=128&h=128" width="128" height="128" />
+				<img title="<? echo $caption ?>" src="createThumb.php?src=<?php echo $file; ?>&w=128&h=128" width="128" height="128"/>
 			</a>
 		</li>
 <?php } ?>
