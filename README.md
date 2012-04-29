@@ -41,7 +41,7 @@ I've been extremely lucky to have the help of some talented individuals on this 
 * [Dan Eden](http://twitter.com/_dte)
 * [Ben Everard](http://twitter.com/ilmv)
 * [Ben Lumley](http://twitter.com/benlumley)
-* [Saral](http://twitter.com/saralk)
+* [Saral Kaushik](http://twitter.com/saralk)
 * [Adam Strawson](http://twitter.com/adamstrawson)
 * [Michael Wright](http://twitter.com/michaelw90)
 
