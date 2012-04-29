@@ -28,7 +28,7 @@
 <body>
 
 	<header id="masthead">
-		<h1>Nice Things<a href="http://www.lukejones.me/" title="Created by Luke Jones">.</a></h1>
+		<h1>Nice Things</h1>
 	</header><!-- /#masthead -->
 
 	<ul>
