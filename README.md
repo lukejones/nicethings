@@ -1,7 +1,7 @@
 Nice Things
 ==============================
 
-This project is an attempt to get a bunch of [Nice Things](http://nicethings.me/) in one place. No adverts, clutter or text, just a lot of nice things.
+[Nice Things](http://nicethings.me/) is a project by [Luke Jones](http://twitter.com/lukejones) to get lots and lots of *Nice Things* in one place. No adverts, clutter or text. Just lots and lots of inspiration.
 
 Basic installation
 ------------------------------
