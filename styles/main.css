@@ -4,14 +4,14 @@ body,html {
 	line-height: 18px;
 }
 
-#masthead { 
+header[role=banner] { 
 	margin: 0;
 	padding: 10px 0 8px;
 	width: 100%;
 	background:#000;
 }
 
-#masthead h1 {
+header[role=banner] h1 {
 	margin: 0 5px;
 	font-family: "league-gothic",sans-serif;
 	font-style: normal;

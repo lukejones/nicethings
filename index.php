@@ -27,9 +27,9 @@
 </head>
 <body>
 
-	<header id="masthead">
+	<header role="banner">
 		<h1>Nice Things</h1>
-	</header><!-- /#masthead -->
+	</header><!--/banner-->
 
 	<ol>
 <?php
