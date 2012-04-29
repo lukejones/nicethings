@@ -22,27 +22,27 @@ body,html {
 	color: #fff;
 }
 
-ul {
+ol {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-ul li {
+ol li {
 	float: left;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-ul a img {
+ol a img {
 	display: block;
 	margin: 0;
 	border: none;
 	opacity: 0.8;
 }
 
-ul a:hover img {
+ol a:hover img {
 	opacity: 1;
 }
 

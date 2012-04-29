@@ -31,7 +31,7 @@
 		<h1>Nice Things</h1>
 	</header><!-- /#masthead -->
 
-	<ul>
+	<ol>
 <?php
     $files = glob("./things/*.*");
     array_multisort(array_map('filemtime', $files), SORT_NUMERIC, SORT_DESC, $files);
@@ -45,7 +45,7 @@
 			</a>
 		</li>
 <?php } ?>
-	</ul>
+	</ol>
 
 </body>
 </html>
