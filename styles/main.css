@@ -5,22 +5,46 @@ body, html {
 	font-family: "jubilat",sans-serif;
 	font-size: 1em;
 	font-weight: 400;
-	-webkit-font-smoothing: antialiased;
 }
 
 header[role=banner] { 
 	margin: 0;
+	overflow: hidden;
 	width: 100%;
 	background: #272822;
 }
 
 header[role=banner] h1 {
+	float: left;
 	margin: 0;
 	padding: 0.4em 0.25em 0.5em;
+	width: 222px;
 	font-size: 1.5em;
 	font-weight: 200;
 	text-transform: uppercase;
 	letter-spacing: 0.0625em;
+	color: #fff;
+}
+
+p {
+	float: right;
+	margin: 0;
+	padding: 0.6em 0.25em 0.5em;
+	width: 222px;
+	font-size: 1em;
+	font-weight: 200;
+	letter-spacing: 0.0625em;
+	text-align: right;
+	color: #666;
+}
+
+p a {
+	font-weight: 400;
+	text-decoration: none;
+	color: #888;
+}
+
+p a:hover {
 	color: #fff;
 }
 

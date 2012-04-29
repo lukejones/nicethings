@@ -29,6 +29,7 @@
 
 	<header role="banner">
 		<h1>Nice Things</h1>
+		<p>A project by <a href="http://twitter.com/lukejones" title="Luke Jones">Luke Jones</a></p>
 	</header><!--/banner-->
 
 	<ol>
