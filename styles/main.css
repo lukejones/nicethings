@@ -1,8 +1,67 @@
-body,html{margin:0;padding:0;line-height:18px;-webkit-font-smoothing:antialiased;}
-#masthead{margin:0;padding:10px 0 8px;width:100%;background:#000;}#masthead h1{margin:0 5px;font-family:"league-gothic",sans-serif;font-style:normal;font-weight:400;font-size:27px;letter-spacing:1px;text-transform:uppercase;color:#fff;}#masthead h1 a{text-decoration:none;color:#BA4545;}#masthead h1 a:hover{color:#fff;}
-ul{margin:0;padding:0;list-style:none;}ul li{float:left;margin:0;padding:0;list-style:none;}
-ul a img{display:block;margin:0;border:none;opacity:0.8;}
-ul a:hover img{opacity:1;}
-.viewer li{-webkit-transition:width 500ms cubic-bezier(0.075, 0.82, 0.165, 1);-moz-transition:width 500ms cubic-bezier(0.075, 0.82, 0.165, 1);transition:width 500ms cubic-bezier(0.075, 0.82, 0.165, 1);}
-.viewer .caption{visibility:hidden;opacity:0;-webkit-transition:opacity 1.5s ease-in-out;-moz-transition:opacity 1.5s ease-in-out;transition:opacity 1.5s ease-in-out;}
-.viewer .current .caption{opacity:100;visibility:visible;}
+body,html {
+	margin: 0;
+	padding: 0;
+	line-height: 18px;
+}
+
+#masthead { 
+	margin: 0;
+	padding: 10px 0 8px;
+	width: 100%;
+	background:#000;
+}
+
+#masthead h1 {
+	margin: 0 5px;
+	font-family: "league-gothic",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 27px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul a img {
+	display: block;
+	margin: 0;
+	border: none;
+	opacity: 0.8;
+}
+
+ul a:hover img {
+	opacity: 1;
+}
+
+/* View.js */
+.viewer li {
+	-webkit-transition: width 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+	-moz-transition: width 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+	transition: width 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.viewer .caption {
+visibility: hidden;
+opacity: 0;
+-webkit-transition: opacity 1.5s ease-in-out;
+-moz-transition: opacity 1.5s ease-in-out;
+transition: opacity 1.5s ease-in-out;
+}
+
+.viewer .current .caption {
+	opacity: 100;
+	visibility: visible;
+}
