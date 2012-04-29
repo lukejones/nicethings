@@ -40,8 +40,8 @@
 	$caption = preg_replace( '/\s*\d+$/', '', pathinfo($file, PATHINFO_FILENAME) ); 
 ?>
 		<li>
-			<a class="view" rel="nice-things" href="<?php echo $file; ?>">
-				<img title="<? echo $caption ?>" src="createThumb.php?src=<?php echo $file; ?>&w=128&h=128" width="128" height="128"/>
+			<a title="<? echo $caption ?>" class="view" rel="nice-things" href="<?php echo $file; ?>">
+				<img src="createThumb.php?src=<?php echo $file; ?>&w=128&h=128" width="128" height="128"/>
 			</a>
 		</li>
 <?php } ?>
