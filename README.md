@@ -29,8 +29,8 @@ Future features
 
 For obvious reasons, I can't guarantee a timeframe for different features of Nice Things, but I've got a list of features I have in mind for future releases:
 
-* Captions on images with the format of `Image by Personal Person`.
-* URL for each popped-up image so the URL is always copy-and-paste friendly.
+* Make the site respond to different screen sizes
+* URL for each popped-up image so the URL is alwaes copy-and-paste friendly
 * User submissions
 
 These people are brilliant
