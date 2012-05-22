@@ -17,19 +17,13 @@ Within the `index.php` you can modify the directory used for your `things` and t
 
 *Keep in mind that Nice Things also uses TypeKit for the small amount of text on the site and [view.js](http://finegoodsmarket.com/view/) by [@rogie](http://twitter.com/rogie) so you need to provide your own alternatives for these.*
 
-Fixing missing image issue
-------------------------------
-
-There is a known issue where images are missing from the front-end which appears in the back. This could be one of two things: the title of the image, or the size of the file. The maximum filesize set by createThumb.php is roughly 6.5MB, so make sure the file does not exceed this size. If the file does not exceed ~6.5MB, make sure that the title does not contain any special characters. I'm working on a fix, but at the moment the only support characters in the filenames are basic latin and simple punctuation (hyphens, spaces and underscores).
-
-*If anyone knows a fix for this, please feel free to fork the repository and send a merge request and I'll give you credit for it.*
-
 Future features
 ------------------------------
 
 For obvious reasons, I can't guarantee a timeframe for different features of Nice Things, but I've got a list of features I have in mind for future releases:
 
-* Make the site respond to different screen sizes
+* Switch to [Data URIs](http://davidwalsh.name/data-uri-php) for each thing to reduce page bandwidth
+* Make the site responsive
 * URL for each popped-up image so the URL is alwaes copy-and-paste friendly
 * User submissions
 
